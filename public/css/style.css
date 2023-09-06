@@ -1,7 +1,286 @@
+
+
 html {
-    background-image: url('/img/aMADBx5Z4uUsoK0TWdBc2A.jpg');
+    background-image: url('/img/2438352.gif');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#link1 {
+    background-image: url('/img/aMADBx5Z4uUsoK0TWdBc2A.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+
+}
+
+#link2 {
+    background-image: url('/img/fallout.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#link3 {
+    background-image: url('/img/b59ac4cbe64fb923a2929d88b9182ca1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#link4 {
+    background-image: url('/img/584177670798072aa08d444f31864c30.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#link5 {
+    background-image: url('/img/steamuserimages-a.akamaihd.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#link6 {
+    background-image: url('/img/logout.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.body {
+    display: inline-block;
+    background-color: white;
+    border: 10px ridge black;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.headerTitle {
+    text-align: center;
+    color: gold;
+}
+
+.info {
+    
+    font-size: medium;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registation-form {
+    background-color: white;
+    border: 10px ridge black;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.registation-card {
+    display: flex;
+    justify-content: center;
+}
+
+.register-data {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.submit-register {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.registation-btn {
+    background-image: url('/img/fall-out-liberty-prime.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.login-btn {
+    background-image: url('/img/registration.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.profile-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-profile {
+    display: inline-block;
+    background-color: white;
+    border: 10px ridge black;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.body-forum {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border: 10px ridge black;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.forum-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.outer-card {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.inner-card {
+    border: 3px inset yellowgreen;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.welcome {
+    text-align: center;
+    font-size: small;
+}
+
+.welcomeforum {
+    text-align: center;
+}
+
+.authorinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.hiddenCreate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-link {
+    background-image: url('/img/enclave-fallout2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: -2px -1px 8px;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.comment-link-box {
+    display: flex;
+    justify-content:end;
+    margin-bottom: 1%;
+}
+
+.comment-link {
+    background-image: url('/img/Icon_Fo4_side_quest.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: -2px -1px 8px;
+    font-size: large;
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+}
+
+.post-creation-form {
+    background-color: white;
+    border: 10px ridge black;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 60%;
+}
+
+input[type=title-post] {
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
+}
+  
+input[type=title-post]:focus {
+    width: 50%;
+}
+
+.post-creation-data {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+textarea[type=title-body] {
+    border-radius: 5px;
+    width: 80%;
+    height: 150px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.submit-post {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.registation-post {
+    background-image: url('/img/vJDOe1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: large;
+    border: 3px ridge white;
+    border-radius: 5px;
+    margin-bottom: 2%;
 }
