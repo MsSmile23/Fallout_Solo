@@ -1,2 +1,2 @@
 # Fallout_Solo
-Solo fan project
+Фанатский сайт по вселенной Фоллаут
